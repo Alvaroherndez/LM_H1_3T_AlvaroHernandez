@@ -4,9 +4,10 @@ Proyectos desarrollados:
 
 Este repositorio contiene dos proyectos web desarrollados con HTML, CSS, JavaScript y JSON:
 
-# Calculadora básica:
+# Calculadora:
 
 -Permite realizar operaciones matemáticas básicas (suma, resta, multiplicación, división).
+-Incluye funciones adicionales como porcentaje, cálculo de cuadrados, y raíz cuadrada.
 -Interfaz de usuario sencilla e intuitiva.
 -Código limpio y bien documentado.
 
