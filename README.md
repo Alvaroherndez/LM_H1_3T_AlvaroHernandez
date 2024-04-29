@@ -16,6 +16,7 @@ Este repositorio contiene dos proyectos web desarrollados con HTML, CSS, JavaScr
 -Muestra información sobre las provincias de España (nombre, comunidad autónoma, capital).
 -Permite cambiar la imagen de fondo de la sección "Clima" con diferentes condiciones climáticas.
 -Integración con la API AEMET OpenData para obtener datos meteorológicos.
+-Bóton de cambio de clima como juego interactivo.
 
 # Tecnologías utilizadas:
 
