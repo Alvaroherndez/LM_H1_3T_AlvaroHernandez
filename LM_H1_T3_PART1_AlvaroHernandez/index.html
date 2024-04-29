@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Haz tus operaciones con nuestra Calculadora</h1><br><br>
+
+    <video autoplay loop muted class="video-bg">
+        <source src="img/129549-744385671.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+    </video>
+
+    <div class="calculator">
+        <div class="calculator__display">0</div>
+        <div class="calculator__keys">
+          <button class="key--operator btn btn-warning" data-action="percentage">%</button>
+          <button class="key--operator btn btn-warning" data-action="square">x²</button>
+          <button class="key--operator btn btn-warning" data-action="square-root">√</button>
+          <button class="key--operator btn btn-warning" data-action="divide">÷</button>
+          <button class="btn btn-light">7</button>
+          <button class="btn btn-light">8</button>
+          <button class="btn btn-light">9</button>
+          <button class="key--operator btn btn-warning" data-action="multiply">&times;</button>
+          <button class="btn btn-light">4</button>
+          <button class="btn btn-light">5</button>
+          <button class="btn btn-light">6</button>
+          <button class="key--operator btn btn-warning" data-action="subtract">-</button>
+          <button class="btn btn-light">1</button>
+          <button class="btn btn-light">2</button>
+          <button class="btn btn-light">3</button>
+          <button class="key--operator btn btn-warning" data-action="add">+</button>
+          <button class="btn btn-light">0</button>
+          <button class="btn btn-light" data-action="decimal">.</button>
+          <button class="key--clear btn btn-danger" data-action="clear">AC</button>
+          <button class="key--equal btn btn-primary" data-action="calculate">=</button>
+        </div>
+        <div class="speech-bubble"> <!-- Bocadillo -->
+          <div class="text">
+            <p><strong>+</strong></p>
+            <p>Suma los dos números.</p>
+          </div>
+          <div class="text">
+            <p><strong>-</strong></p>
+            <p>Resta los dos números.</p>
+          </div>
+          <div class="text">
+            <p><strong>&times;</strong></p>
+            <p>Multiplica los dos números.</p>
+          </div>
+          <div class="text">
+            <p><strong>÷</strong></p>
+            <p>Divide el primer número por el segundo.</p>
+          </div>
+          <div class="text">
+            <p><strong>AC</strong></p>
+            <p>Borra la entrada actual.</p>
+          </div>
+          <div class="text">
+            <p><strong>=</strong></p>
+            <p>Calcula el resultado de la operación.</p>
+          </div>
+          <div class="text">
+            <p><strong>%</strong></p>
+            <p>Calcula el porcentaje del primer número.</p>
+          </div>
+          <div class="text">
+            <p><strong>x²</strong></p>
+            <p>Calcula el cuadrado del primer número.</p>
+          </div>
+          <div class="text">
+            <p><strong>√</strong></p>
+            <p>Calcula la raíz cuadrada del primer número.</p>
+          </div>
+        </div>
+      </div>
+      <script src="calculator.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,93 @@
+#seccion {
+  width: 100%;
+  height: 500px;
+  background-image: url("img/despejado\ \(1\).jpg"); /* Imagen inicial */
+  background-size: cover;
+  background-position: center;  
+  
+}
+
+#seccion p{
+  text-align: center;
+  text-shadow: 5px 4px 3px rgba(0, 0, 0, 0.2);
+  font-size: 2em;
+}
+
+#boton {
+  position: relative;
+  margin-left: 3%;
+  bottom: 70px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el grid */
+#provincias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Estilos para provincia */
+.provincia {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.nombre-provincia {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.datos-provincia {
+  list-style: none;
+  padding: 0;
+}
+
+.datos-provincia li {
+  margin-bottom: 5px;
+}
+
+.datos-provincia span.label {
+  font-weight: bold;
+}
+
+.provincia:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Estilos para el navbar con Bootstrap */
+.navbar-brand img {
+  width: 70px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+.footer {
+  background-color: #b8b8b8;
+  padding: 20px 0;
+}
+
